@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <>
-      <Input vad={name} setValue={setName}/>
+      <Input v={name} setValue={setName}/>
       <Input v={desc} setValue={setDesc}/>
       <Button event={event}/>
     </>
